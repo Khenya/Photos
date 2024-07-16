@@ -12,7 +12,7 @@ const ForYouScreen = () => {
       const response = await getCats({ limit: 21 });
       setCats(response.data.slice(0, 7));
       const randomIndexes = [];
-      while (randomIndexes.length < 4) {
+      while (randomIndexes.length < 6) {
         const randomIndex = Math.floor(Math.random() * response.data.length);
         if (!randomIndexes.includes(randomIndex)) {
           randomIndexes.push(randomIndex);

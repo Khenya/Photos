@@ -104,4 +104,68 @@ export const styles = StyleSheet.create({
         borderRadius: 50,
         marginBottom: 15,
     },
+    title: {
+        fontSize: 32,
+        fontWeight: 'bold',
+        marginBottom: 40,
+        top: 40,
+
+    },
+    settingItem: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        marginVertical: 15,
+        borderBottomWidth: 1,
+        borderBottomColor: colors.plomo,
+        paddingBottom: 10,
+        top: 10,
+    },
+
+    settingText: {
+        fontSize: 18,
+        flex: 1,
+    },
+    ProfileText: {
+        fontSize: 18,
+        textAlign: 'center',   
+        flex: 1, 
+    },
+    containerProfile: {
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
+        padding: 20,
+    },
+    profileImageContainer: {
+        position: 'relative',
+    },
+    profileImage: {
+        width: 160,
+        height: 160,
+        borderRadius: 80,
+        borderWidth: 2,
+        borderColor: colors.black,
+    },
+    cameraButton: {
+        position: 'absolute',
+        bottom: 0,
+        right: 0,
+        backgroundColor: colors.blanco,
+        borderRadius: 15,
+        padding: 5,
+    },
+    nameContainer: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        marginTop: 10,
+    },
+    profileName: {
+        fontSize: 25,
+        fontWeight: 'bold',
+        color: colors.black,
+        marginRight: 10,
+    },
+    editButton: {
+        padding: 5,
+    },
 });

@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Image, TouchableOpacity, StyleSheet, Text } from "react-native";
+import { View, Image, TouchableOpacity, Text } from "react-native";
 
 import { styles } from "../../confit/theme/app-theme";
 const AlbumItem = ({ cat, description }) => {
